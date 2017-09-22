@@ -8,4 +8,4 @@ From Section 4 - Managing App State with Redux
 - Selected Book not working as expected.
 
 ### Acknowledgements
-- Thank you Stephen Grider and company.
+- Thank you Schana Carter, Stephen Grider and company.
