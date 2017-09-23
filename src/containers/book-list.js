@@ -9,7 +9,7 @@ class BookList extends Component {
       return(
         <li 
           key={book.title} 
-          onClick={() => this.props.selectBook()}
+          onClick={() => this.props.selectBook(book)}
           className="list-group-item">
           {book.title}
         </li>
@@ -18,7 +18,6 @@ class BookList extends Component {
 }
 
 render(){
-  console.log(this.props.asdf) // -> 123
     return (
       <ul className="list-group col-sm-4">
         {this.renderList()}
